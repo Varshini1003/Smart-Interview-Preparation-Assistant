@@ -1,0 +1,104 @@
+ID,Question,Option_A,Option_B,Option_C,Option_D,Answer,Topic,Difficulty
+1,Which command is used to retrieve data from a database?,SELECT,GET,FETCH,RETRIEVE,SELECT,SQL Basics,Easy
+2,Which SQL clause is used to filter records?,WHERE,ORDER BY,GROUP BY,HAVING,WHERE,SQL Basics,Easy
+3,Which keyword is used to remove duplicate records from a result set?,UNIQUE,DISTINCT,REMOVE,DELETE,DISTINCT,SQL Basics,Easy
+4,Which SQL command is used to insert new data into a table?,INSERT,ADD,CREATE,APPEND,INSERT,DML,Easy
+5,Which command is used to modify existing data in a table?,UPDATE,ALTER,CHANGE,MODIFY,UPDATE,DML,Easy
+6,Which command is used to delete rows from a table?,DELETE,DROP,REMOVE,CLEAR,DELETE,DML,Easy
+7,Which SQL command is used to create a new table?,CREATE,MAKE,BUILD,NEW,CREATE,DDL,Easy
+8,Which command removes a table permanently from the database?,DELETE,DROP,TRUNCATE,REMOVE,DROP,DDL,Easy
+9,Which constraint prevents NULL values in a column?,UNIQUE,NOT NULL,PRIMARY KEY,DEFAULT,NOT NULL,Constraints,Easy
+10,Which constraint uniquely identifies each row in a table?,PRIMARY KEY,FOREIGN KEY,CHECK,DEFAULT,PRIMARY KEY,Constraints,Easy
+11,Which constraint is used to establish a relationship between two tables?,PRIMARY KEY,FOREIGN KEY,UNIQUE,NOT NULL,FOREIGN KEY,Constraints,Easy
+12,Which SQL operator is used to search for a pattern?,LIKE,MATCH,SEARCH,FIND,LIKE,Operators,Easy
+13,Which wildcard represents multiple characters in SQL LIKE operator?,_,%,*,#,%,Operators,Easy
+14,Which clause is used to sort query results?,SORT BY,ORDER BY,GROUP BY,ARRANGE BY,ORDER BY,SQL Basics,Easy
+15,Which keyword is used to sort records in descending order?,DESC,DOWN,REVERSE,DEC,DESC,SQL Basics,Easy
+16,Which aggregate function returns the number of rows?,COUNT,SUM,TOTAL,NUMBER,COUNT,Functions,Easy
+17,Which function returns the highest value in a column?,MAX,HIGHEST,TOP,LARGE,MAX,Functions,Easy
+18,Which function returns the average value of a column?,AVG,AVERAGE,MEAN,MID,AVG,Functions,Easy
+19,Which function returns the total sum of values?,SUM,ADD,TOTAL,COUNT,SUM,Functions,Easy
+20,Which function returns the smallest value in a column?,MIN,LOWEST,SMALL,BOTTOM,MIN,Functions,Easy
+21,Which clause is used with aggregate functions to filter groups?,WHERE,HAVING,GROUP BY,ORDER BY,HAVING,Functions,Medium
+22,Which clause is used to group rows with the same values?,GROUP BY,HAVING,ORDER BY,WHERE,GROUP BY,SQL Basics,Easy
+23,Which command is used to remove all rows from a table quickly?,DELETE ALL,TRUNCATE,CLEAR,DROP,TRUNCATE,DDL,Medium
+24,Which SQL statement is used to change the structure of a table?,ALTER,UPDATE,MODIFY,CHANGE,ALTER,DDL,Medium
+25,Which data type is used to store variable length strings in SQL?,VARCHAR,CHAR,TEXT,STRING,VARCHAR,Data Types,Easy
+ID,Question,Option_A,Option_B,Option_C,Option_D,Answer,Topic,Difficulty
+26,Which SQL data type is used to store fixed-length strings?,VARCHAR,CHAR,TEXT,STRING,CHAR,Data Types,Easy
+27,Which SQL data type is used to store integer values?,INT,FLOAT,CHAR,DATE,INT,Data Types,Easy
+28,Which SQL data type is used to store decimal numbers?,DECIMAL,INTEGER,CHAR,BOOLEAN,DECIMAL,Data Types,Easy
+29,Which SQL data type stores date values?,DATE,TIME,YEAR,CALENDAR,DATE,Data Types,Easy
+30,Which command is used to display the structure of a table?,DESCRIBE,SHOW,STRUCTURE,VIEW,DESCRIBE,SQL Basics,Easy
+31,Which keyword is used to rename a column or table temporarily?,AS,RENAME,ALIAS,CHANGE,AS,SQL Basics,Medium
+32,Which SQL operator is used to check values within a range?,BETWEEN,RANGE,WITHIN,IN,BETWEEN,Operators,Easy
+33,Which operator is used to check multiple possible values?,IN,MULTI,ANY,VALUES,IN,Operators,Easy
+34,Which operator is used to combine two conditions where both must be true?,AND,OR,NOT,BETWEEN,AND,Operators,Easy
+35,Which operator returns true if at least one condition is true?,AND,OR,NOT,LIKE,OR,Operators,Easy
+36,Which keyword is used to give an alternative name to a table?,AS,ALIAS,NAME,RENAME,AS,SQL Basics,Medium
+37,Which JOIN returns matching records from both tables?,INNER JOIN,FULL JOIN,LEFT JOIN,CROSS JOIN,INNER JOIN,Joins,Easy
+38,Which JOIN returns all records from the left table and matching records from the right table?,LEFT JOIN,RIGHT JOIN,INNER JOIN,CROSS JOIN,LEFT JOIN,Joins,Easy
+39,Which JOIN returns all records from the right table and matching records from the left table?,RIGHT JOIN,LEFT JOIN,FULL JOIN,INNER JOIN,RIGHT JOIN,Joins,Easy
+40,Which JOIN returns all records from both tables?,FULL OUTER JOIN,INNER JOIN,CROSS JOIN,LEFT JOIN,FULL OUTER JOIN,Joins,Medium
+41,Which JOIN produces the Cartesian product of two tables?,CROSS JOIN,INNER JOIN,FULL JOIN,SELF JOIN,CROSS JOIN,Joins,Medium
+42,Which JOIN is used to join a table with itself?,SELF JOIN,INNER JOIN,CROSS JOIN,NATURAL JOIN,SELF JOIN,Joins,Medium
+43,Which keyword is used to combine results of two SELECT statements?,UNION,JOIN,MERGE,COMBINE,UNION,SQL Operations,Medium
+44,Which UNION operation removes duplicate records?,UNION,UNION ALL,MERGE,DISTINCT,UNION,SQL Operations,Medium
+45,Which UNION operation keeps duplicate records?,UNION ALL,UNION,DUPLICATE,ALL JOIN,UNION ALL,SQL Operations,Medium
+46,Which SQL command is used to permanently save a transaction?,COMMIT,SAVE,STORE,APPLY,COMMIT,Transactions,Medium
+47,Which command is used to undo changes before commit?,ROLLBACK,UNDO,CANCEL,REVERT,ROLLBACK,Transactions,Medium
+48,Which command creates a point inside a transaction?,SAVEPOINT,MARKPOINT,CHECKPOINT,POINT,SAVEPOINT,Transactions,Medium
+49,Which property ensures a transaction is completed completely or not at all?,Atomicity,Consistency,Isolation,Durability,Atomicity,Transactions,Medium
+50,Which ACID property ensures committed data remains saved permanently?,Durability,Atomicity,Consistency,Isolation,Durability,Transactions,Medium
+ID,Question,Option_A,Option_B,Option_C,Option_D,Answer,Topic,Difficulty
+51,Which normal form removes repeating groups of data?,1NF,2NF,3NF,BCNF,1NF,Normalization,Medium
+52,Which normal form removes partial dependency?,1NF,2NF,3NF,4NF,2NF,Normalization,Medium
+53,Which normal form removes transitive dependency?,2NF,3NF,BCNF,1NF,3NF,Normalization,Medium
+54,Normalization is mainly used to reduce what?,Data redundancy,Data size,Query speed,Security,Data redundancy,Normalization,Easy
+55,Denormalization is used to improve what?,Query performance,Data redundancy,Data duplication,Storage space,Query performance,Normalization,Medium
+56,Which key can have NULL values?,PRIMARY KEY,FOREIGN KEY,UNIQUE KEY,CANDIDATE KEY,FOREIGN KEY,Keys,Medium
+57,Which key is a possible candidate for primary key selection?,Candidate Key,Foreign Key,Composite Key,Secondary Key,Candidate Key,Keys,Medium
+58,Which key consists of multiple columns?,Composite Key,Primary Key,Foreign Key,Super Key,Composite Key,Keys,Easy
+59,Which key uniquely identifies a row but is not selected as primary key?,Alternate Key,Foreign Key,Composite Key,Secondary Key,Alternate Key,Keys,Medium
+60,Which key can uniquely identify rows and may contain extra attributes?,Super Key,Candidate Key,Foreign Key,Alternate Key,Super Key,Keys,Medium
+61,Which SQL command is used to create an index?,CREATE INDEX,MAKE INDEX,ADD INDEX,BUILD INDEX,CREATE INDEX,Indexes,Easy
+62,Indexes are mainly used to improve what?,Query performance,Data duplication,Table size,Data entry,Query performance,Indexes,Easy
+63,Which command removes an index?,DROP INDEX,DELETE INDEX,REMOVE INDEX,CLEAR INDEX,DROP INDEX,Indexes,Medium
+64,A view in SQL is a what?,Virtual table,Physical table,Database copy,Stored file,Virtual table,Views,Easy
+65,Which command is used to create a view?,CREATE VIEW,MAKE VIEW,NEW VIEW,ADD VIEW,CREATE VIEW,Views,Easy
+66,Which command removes a view?,DROP VIEW,DELETE VIEW,REMOVE VIEW,CLEAR VIEW,DROP VIEW,Views,Easy
+67,Which SQL statement is used to retrieve data from multiple tables?,JOIN,MERGE,CONNECT,UNION,JOIN,Joins,Easy
+68,Which clause is used to limit the number of rows returned?,LIMIT,TOP,ROWNUM,RESTRICT,LIMIT,SQL Basics,Medium
+69,Which keyword is used to check whether a value is NULL?,IS NULL,NULL CHECK,IS EMPTY,COMPARE NULL,IS NULL,Operators,Easy
+70,Which keyword is used to check values that are not NULL?,IS NOT NULL,NOT EMPTY,IS VALUE,NOT NULL CHECK,IS NOT NULL,Operators,Easy
+71,Which function converts text to uppercase?,UPPER,CAPITAL,UP,TOUPPER,UPPER,Functions,Easy
+72,Which function converts text to lowercase?,LOWER,SMALL,DOWN,TOLOWER,LOWER,Functions,Easy
+73,Which function returns the length of a string?,LENGTH,SIZE,COUNT,CHARCOUNT,LENGTH,Functions,Easy
+74,Which function is used to combine strings?,CONCAT,MERGE,JOINSTRING,COMBINE,CONCAT,Functions,Easy
+75,Which SQL object stores a precompiled query for repeated execution?,Stored Procedure,View,Index,Trigger,Stored Procedure,Database Objects,Medium
+ID,Question,Option_A,Option_B,Option_C,Option_D,Answer,Topic,Difficulty
+76,Which database object automatically executes when a specific event occurs?,Trigger,Procedure,View,Index,Trigger,Database Objects,Medium
+77,Which SQL command is used to create a stored procedure?,CREATE PROCEDURE,MAKE PROCEDURE,ADD PROCEDURE,NEW PROCEDURE,CREATE PROCEDURE,Database Objects,Medium
+78,Which statement is used to call a stored procedure?,CALL,EXECUTE,RUN,All of the above,All of the above,Database Objects,Medium
+79,Which SQL clause is executed before GROUP BY?,WHERE,HAVING,ORDER BY,SELECT,WHERE,SQL Basics,Medium
+80,Which SQL clause is executed after GROUP BY?,HAVING,WHERE,ORDER BY,LIMIT,HAVING,SQL Basics,Medium
+81,Which keyword is used to assign a value to a variable in SQL?,SET,LET,ASSIGN,GIVE,SET,SQL Programming,Easy
+82,Which command is used to display all databases?,SHOW DATABASES,LIST DATABASES,DISPLAY DB,GET DATABASES,SHOW DATABASES,SQL Basics,Easy
+83,Which command is used to select a database?,USE,SELECT DATABASE,OPEN,CONNECT,USE,SQL Basics,Easy
+84,Which command is used to display all tables in a database?,SHOW TABLES,LIST TABLES,DISPLAY TABLES,GET TABLES,SHOW TABLES,SQL Basics,Easy
+85,Which SQL statement is used to add a new column to an existing table?,ALTER TABLE ADD,UPDATE TABLE,MODIFY TABLE,INSERT COLUMN,ALTER TABLE ADD,DDL,Medium
+86,Which command removes all rows from a table but keeps its structure?,TRUNCATE,DELETE,DROP,REMOVE,TRUNCATE,DDL,Medium
+87,Which command deletes a table along with its structure?,DROP,DELETE,TRUNCATE,CLEAR,DROP,DDL,Easy
+88,Which constraint ensures that values in a column are different?,UNIQUE,PRIMARY KEY,FOREIGN KEY,CHECK,UNIQUE,Constraints,Easy
+89,Which constraint is used to validate values based on a condition?,CHECK,VALIDATE,RULE,VERIFY,CHECK,Constraints,Medium
+90,Which SQL command is used to grant permissions to users?,GRANT,ALLOW,PERMIT,GIVE,GRANT,Security,Medium
+91,Which SQL command is used to remove permissions from users?,REVOKE,DENY,REMOVE,DELETE,REVOKE,Security,Medium
+92,Which command is used to create a new user in SQL?,CREATE USER,ADD USER,NEW USER,MAKE USER,CREATE USER,Security,Medium
+93,Which type of query is used inside another query?,Subquery,Nested Table,Inner Query Block,Child Table,Subquery,Subqueries,Medium
+94,A query inside another query is called what?,Subquery,Join,Trigger,Procedure,Subquery,Subqueries,Easy
+95,Which operator is commonly used with subqueries returning multiple values?,IN,LIKE,BETWEEN,AS,IN,Subqueries,Medium
+96,Which SQL function returns the current date?,CURRENT_DATE,NOW_DATE,GETDATEONLY,TODAY,CURRENT_DATE,Functions,Medium
+97,Which SQL function returns the current date and time?,NOW(),TIME(),CURRENT(),DATE_NOW(),NOW(),Functions,Medium
+98,Which command is used to rename an existing table?,RENAME TABLE,ALTER NAME,CHANGE TABLE,MODIFY TABLE,RENAME TABLE,DDL,Medium
+99,Which isolation level prevents dirty reads?,READ COMMITTED,READ UNCOMMITTED,READ ONLY,NONE,READ COMMITTED,Transactions,Hard
+100,Which ACID property ensures transactions do not interfere with each other?,Isolation,Atomicity,Consistency,Durability,Isolation,Transactions,Hard

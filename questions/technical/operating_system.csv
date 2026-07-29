@@ -1,0 +1,104 @@
+Question,Answer
+What is an Operating System?,An Operating System is system software that manages computer hardware software resources and provides services for applications.
+What are the main functions of an Operating System?,The main functions are process management memory management file management device management security and user interface.
+What are the different types of Operating Systems?,Batch Operating System Time Sharing Operating System Distributed Operating System Network Operating System Real-Time Operating System and Mobile Operating System.
+What is a kernel?,The kernel is the core component of an Operating System that manages hardware resources and system calls.
+What are the types of kernels?,The main types are Monolithic Kernel Microkernel Hybrid Kernel Exokernel and Nanokernel.
+What is the difference between kernel and Operating System?,The Operating System is the complete software package while the kernel is its core component.
+What is a system call?,A system call is a mechanism through which a user program requests services from the Operating System.
+What is a process?,A process is a program that is currently being executed.
+What is a program?,A program is a passive set of instructions stored on disk while a process is an active executing program.
+What are the states of a process?,New Ready Running Waiting Terminated and Suspended are the common process states.
+What is a Process Control Block (PCB)?,A PCB is a data structure used by the Operating System to store information about a process.
+What is process scheduling?,Process scheduling is the method of selecting the next process for CPU execution.
+What are the types of schedulers?,Long-term Medium-term and Short-term schedulers.
+What is CPU scheduling?,CPU scheduling is the process of allocating CPU time to processes waiting in the ready queue.
+What is context switching?,Context switching is the process of saving the state of one process and loading the state of another process.
+What is multitasking?,Multitasking is the ability of an Operating System to execute multiple tasks apparently at the same time.
+What is multiprocessing?,Multiprocessing uses multiple CPUs or processor cores to execute multiple processes simultaneously.
+What is multithreading?,Multithreading allows multiple threads within a process to execute concurrently.
+What is a thread?,A thread is the smallest unit of CPU execution within a process.
+What is the difference between a process and a thread?,A process has its own memory space while threads share the memory of the same process.
+What is process synchronization?,Process synchronization coordinates multiple processes or threads accessing shared resources.
+What is a critical section?,A critical section is a part of a program where shared resources are accessed.
+What is race condition?,A race condition occurs when multiple processes access shared data simultaneously causing unpredictable results.
+What is mutual exclusion?,Mutual exclusion ensures that only one process or thread can enter the critical section at a time.
+What is semaphore?,A semaphore is a synchronization mechanism used to control access to shared resources.
+Question,Answer
+What is CPU scheduling?,CPU scheduling is the process of selecting the next process from the ready queue for execution.
+Why is CPU scheduling important?,CPU scheduling improves CPU utilization throughput and system responsiveness.
+What are the objectives of CPU scheduling?,The objectives are maximum CPU utilization high throughput minimum waiting time minimum turnaround time and minimum response time.
+What is First Come First Serve (FCFS) scheduling?,FCFS schedules processes in the order they arrive.
+What are the advantages of FCFS scheduling?,FCFS is simple easy to implement and fair based on arrival time.
+What are the disadvantages of FCFS scheduling?,FCFS may cause the convoy effect and high average waiting time.
+What is Shortest Job First (SJF) scheduling?,SJF selects the process with the shortest CPU burst time.
+What is the advantage of SJF?,SJF minimizes average waiting time.
+What is the disadvantage of SJF?,SJF may cause starvation of long processes.
+What is Shortest Remaining Time First (SRTF)?,SRTF is the preemptive version of SJF where the process with the shortest remaining time executes.
+What is Priority Scheduling?,Priority Scheduling executes the process with the highest priority first.
+What is starvation in Operating Systems?,Starvation occurs when a process waits indefinitely because other higher-priority processes keep executing.
+What is aging?,Aging gradually increases the priority of waiting processes to prevent starvation.
+What is Round Robin (RR) scheduling?,Round Robin assigns a fixed time quantum to each process in cyclic order.
+What is time quantum?,Time quantum is the maximum CPU time allocated to a process before switching to another process.
+What is the advantage of Round Robin scheduling?,It provides fair CPU allocation and good response time for time-sharing systems.
+What is preemptive scheduling?,In preemptive scheduling the operating system can interrupt a running process to execute another.
+What is non-preemptive scheduling?,In non-preemptive scheduling a running process keeps the CPU until it finishes or blocks.
+What is deadlock?,A deadlock occurs when two or more processes wait indefinitely for resources held by each other.
+What are the four necessary conditions for deadlock?,Mutual Exclusion Hold and Wait No Preemption and Circular Wait.
+What is deadlock prevention?,Deadlock prevention ensures that at least one deadlock condition never occurs.
+What is deadlock avoidance?,Deadlock avoidance allocates resources only if the system remains in a safe state.
+What is the Banker's Algorithm?,The Banker's Algorithm is a deadlock avoidance algorithm that checks for safe resource allocation.
+What is deadlock detection?,Deadlock detection identifies deadlocks after they occur and takes recovery actions.
+What is deadlock recovery?,Deadlock recovery resolves deadlocks by terminating processes or preempting resources.
+Question,Answer
+What is memory management?,Memory management is the process of allocating and deallocating memory to processes efficiently.
+What is primary memory?,Primary memory is the main memory RAM directly accessed by the CPU.
+What is secondary memory?,Secondary memory is non-volatile storage such as HDDs and SSDs used for permanent data storage.
+What is contiguous memory allocation?,Contiguous memory allocation assigns a continuous block of memory to a process.
+What is non-contiguous memory allocation?,Non-contiguous memory allocation allows a process to occupy different memory locations.
+What is fragmentation?,Fragmentation is the inefficient use of memory due to allocation and deallocation.
+What is internal fragmentation?,Internal fragmentation occurs when allocated memory contains unused space inside a memory block.
+What is external fragmentation?,External fragmentation occurs when free memory is scattered into small non-contiguous blocks.
+What is paging?,Paging is a memory management technique that divides memory into fixed-size pages and frames.
+What is a page?,A page is a fixed-size block of logical memory.
+What is a frame?,A frame is a fixed-size block of physical memory.
+What is a page table?,A page table maps logical pages to physical memory frames.
+What is virtual memory?,Virtual memory allows processes to use more memory than the available physical RAM by using disk space.
+What are the advantages of virtual memory?,It enables larger programs to run improves multitasking and increases memory utilization.
+What is demand paging?,Demand paging loads pages into memory only when they are needed.
+What is page fault?,A page fault occurs when a required page is not present in main memory.
+What is thrashing?,Thrashing occurs when the operating system spends more time swapping pages than executing processes.
+What is page replacement?,Page replacement is the process of replacing an existing page in memory with a required page.
+What is FIFO page replacement?,FIFO replaces the page that has been in memory for the longest time.
+What is LRU page replacement?,LRU replaces the page that has not been used for the longest period.
+What is Optimal page replacement?,Optimal page replacement removes the page that will not be used for the longest time in the future.
+What is segmentation?,Segmentation divides memory into variable-sized logical segments such as code data and stack.
+What is the difference between paging and segmentation?,Paging divides memory into fixed-size blocks while segmentation divides memory into logical variable-sized segments.
+What is swapping?,Swapping temporarily moves processes between main memory and secondary storage to free RAM.
+What is an address space?,An address space is the range of memory addresses that a process can use.
+Question,Answer
+What is a file system?,A file system is the method used by an operating system to organize store retrieve and manage files on storage devices.
+What are the functions of a file system?,A file system manages file storage directories permissions naming and disk space allocation.
+What is a directory?,A directory is a special file that stores information about files and subdirectories.
+What is the difference between a file and a directory?,A file stores data while a directory organizes files and folders.
+What is file allocation?,File allocation is the method of assigning disk space to files.
+What are the types of file allocation methods?,The main methods are Contiguous Linked and Indexed allocation.
+What is disk scheduling?,Disk scheduling determines the order in which disk I/O requests are serviced.
+Why is disk scheduling needed?,Disk scheduling reduces seek time improves throughput and increases disk performance.
+What is FCFS disk scheduling?,FCFS services disk requests in the order they arrive.
+What is SSTF disk scheduling?,Shortest Seek Time First services the request closest to the current disk head position.
+What is SCAN scheduling?,SCAN moves the disk head in one direction servicing requests then reverses direction.
+What is C-SCAN scheduling?,Circular SCAN services requests in one direction and returns directly to the beginning without servicing requests on the return.
+What is LOOK scheduling?,LOOK moves the disk head only as far as the last request before reversing direction.
+What is C-LOOK scheduling?,Circular LOOK services requests in one direction then jumps back to the first pending request.
+What is an interrupt?,An interrupt is a signal that temporarily stops CPU execution to handle an event.
+What are the types of interrupts?,The main types are Hardware Interrupts Software Interrupts Internal Exceptions and External Interrupts.
+What is a trap?,A trap is a software-generated interrupt caused intentionally by a program.
+What is a system boot process?,The boot process initializes hardware loads the operating system kernel and starts system services.
+What is BIOS?,BIOS Basic Input Output System is firmware that initializes hardware and starts the boot process.
+What is UEFI?,UEFI Unified Extensible Firmware Interface is the modern replacement for BIOS with improved security and faster booting.
+What is operating system security?,Operating system security protects system resources from unauthorized access malware and attacks.
+What is authentication?,Authentication verifies the identity of a user before granting access.
+What is authorization?,Authorization determines the resources and actions an authenticated user is permitted to access.
+What is the difference between authentication and authorization?,Authentication verifies identity while authorization determines access permissions.
+What is a shell?,A shell is a command-line interface that allows users to interact with the operating system by executing commands.

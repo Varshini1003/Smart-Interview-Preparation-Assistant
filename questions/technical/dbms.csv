@@ -1,0 +1,104 @@
+Question,Answer
+What is DBMS?,A Database Management System is software used to create manage and maintain databases.
+What are the advantages of DBMS?,DBMS provides data security reduced redundancy data consistency backup recovery and concurrent access.
+What is a database?,A database is an organized collection of related data stored electronically.
+What is RDBMS?,A Relational Database Management System stores data in tables with rows and columns.
+What is the difference between DBMS and RDBMS?,DBMS may not use relationships while RDBMS stores data in related tables using keys.
+What is a table?,A table is a collection of rows and columns used to store data.
+What is a row in a table?,A row represents a single record in a table.
+What is a column in a table?,A column represents an attribute or field of a table.
+What is a field?,A field is a single piece of data stored in a column.
+What is a schema?,A schema is the logical structure or blueprint of a database.
+What is metadata?,Metadata is data that describes other data such as table names column names and data types.
+What is a primary key?,A primary key uniquely identifies each record in a table.
+Can a primary key contain NULL values?,No a primary key cannot contain NULL values.
+What is a foreign key?,A foreign key creates a relationship between two tables by referencing the primary key of another table.
+What is a candidate key?,A candidate key is a column or set of columns that can uniquely identify each record.
+What is an alternate key?,An alternate key is a candidate key that is not selected as the primary key.
+What is a composite key?,A composite key consists of two or more columns used together to uniquely identify a record.
+What is a super key?,A super key is a set of one or more attributes that uniquely identifies a record.
+What is a unique key?,A unique key ensures all values in a column are unique but typically allows one NULL value depending on the DBMS.
+What is an entity?,An entity is a real-world object or concept represented in a database.
+What is an attribute?,An attribute is a property or characteristic of an entity.
+What is an Entity Relationship (ER) model?,An ER model represents entities attributes and relationships in a database graphically.
+What is an ER diagram?,An ER diagram is a visual representation of entities relationships and attributes.
+What are the types of relationships in DBMS?,The main relationship types are One-to-One One-to-Many and Many-to-Many.
+What is data redundancy?,Data redundancy is the unnecessary duplication of data in a database.
+Question,Answer
+What is normalization?,Normalization is the process of organizing data to reduce redundancy and improve data integrity.
+Why is normalization important?,It minimizes data duplication and prevents update insertion and deletion anomalies.
+What is the First Normal Form (1NF)?,1NF ensures that each column contains atomic values and each record is unique.
+What is the Second Normal Form (2NF)?,2NF removes partial dependencies and requires the table to already be in 1NF.
+What is the Third Normal Form (3NF)?,3NF removes transitive dependencies and requires the table to already be in 2NF.
+What is Boyce-Codd Normal Form (BCNF)?,BCNF is a stronger version of 3NF where every determinant must be a candidate key.
+What is the Fourth Normal Form (4NF)?,4NF removes multi-valued dependencies from a table.
+What is the Fifth Normal Form (5NF)?,5NF removes join dependencies and ensures lossless decomposition.
+What is denormalization?,Denormalization combines tables to improve query performance by reducing joins.
+What is a functional dependency?,A functional dependency exists when one attribute uniquely determines another attribute.
+What is a trivial functional dependency?,A dependency where the dependent attribute is part of the determinant.
+What is a non-trivial functional dependency?,A dependency where the dependent attribute is not part of the determinant.
+What are integrity constraints?,Integrity constraints ensure the accuracy and consistency of data in a database.
+What is entity integrity?,Entity integrity ensures that a primary key cannot contain NULL values.
+What is referential integrity?,Referential integrity ensures that foreign key values always reference valid primary key values.
+What is a NOT NULL constraint?,The NOT NULL constraint prevents a column from storing NULL values.
+What is a UNIQUE constraint?,The UNIQUE constraint ensures all values in a column are distinct.
+What is the CHECK constraint?,The CHECK constraint restricts values in a column based on a specified condition.
+What is the DEFAULT constraint?,The DEFAULT constraint automatically assigns a default value if none is provided.
+What is SQL?,SQL stands for Structured Query Language and is used to manage relational databases.
+What are the categories of SQL commands?,The main categories are DDL DML DCL TCL and DQL.
+What is DDL?,Data Definition Language is used to define and modify database structures.
+What are DDL commands?,Common DDL commands are CREATE ALTER DROP TRUNCATE and RENAME.
+What is DML?,Data Manipulation Language is used to insert update delete and retrieve data.
+What are DML commands?,Common DML commands are INSERT UPDATE DELETE and MERGE.
+Question,Answer
+What is DQL?,Data Query Language is used to retrieve data from a database.
+Which command is used in DQL?,The SELECT command is the primary DQL command.
+What is a WHERE clause?,The WHERE clause filters rows based on specified conditions.
+What is the ORDER BY clause?,The ORDER BY clause sorts query results in ascending or descending order.
+What is the GROUP BY clause?,The GROUP BY clause groups rows having the same values in specified columns.
+What is the HAVING clause?,The HAVING clause filters grouped records after GROUP BY.
+What is the difference between WHERE and HAVING?,WHERE filters rows before grouping while HAVING filters groups after aggregation.
+What are aggregate functions?,Aggregate functions perform calculations on multiple rows and return a single value.
+What are common aggregate functions?,COUNT SUM AVG MIN and MAX are common aggregate functions.
+What is a JOIN?,A JOIN combines rows from two or more tables based on a related column.
+What is an INNER JOIN?,An INNER JOIN returns only matching records from both tables.
+What is a LEFT JOIN?,A LEFT JOIN returns all records from the left table and matching records from the right table.
+What is a RIGHT JOIN?,A RIGHT JOIN returns all records from the right table and matching records from the left table.
+What is a FULL OUTER JOIN?,A FULL OUTER JOIN returns all matching and non-matching rows from both tables.
+What is a CROSS JOIN?,A CROSS JOIN returns the Cartesian product of two tables.
+What is a SELF JOIN?,A SELF JOIN joins a table with itself.
+What is an index?,An index is a database object that improves the speed of data retrieval.
+What are the advantages of indexes?,Indexes improve query performance and reduce data retrieval time.
+What are the disadvantages of indexes?,Indexes consume additional storage and slow INSERT UPDATE and DELETE operations.
+What is a clustered index?,A clustered index stores table data physically in the order of the index.
+What is a non-clustered index?,A non-clustered index stores index information separately from table data.
+What is a view?,A view is a virtual table created from the result of an SQL query.
+What are the advantages of views?,Views improve security simplify complex queries and provide data abstraction.
+What is a transaction?,A transaction is a sequence of one or more database operations executed as a single logical unit.
+What are the ACID properties?,ACID stands for Atomicity Consistency Isolation and Durability which ensure reliable database transactions.
+Question,Answer
+What is concurrency control?,Concurrency control manages simultaneous transactions while maintaining data consistency.
+Why is concurrency control important?,It prevents conflicts and ensures database consistency when multiple users access data simultaneously.
+What is a lock in DBMS?,A lock is a mechanism that controls access to database resources during transactions.
+What are the types of locks?,The main types are Shared Lock Exclusive Lock Intent Lock and Update Lock.
+What is a shared lock?,A shared lock allows multiple transactions to read data but prevents modification.
+What is an exclusive lock?,An exclusive lock allows a transaction to read and modify data while preventing access by others.
+What is lock-based protocol?,A lock-based protocol uses locks to synchronize concurrent transactions.
+What is the Two-Phase Locking (2PL) protocol?,Two-Phase Locking has a growing phase for acquiring locks and a shrinking phase for releasing locks.
+What is a deadlock?,A deadlock occurs when two or more transactions wait indefinitely for each other to release resources.
+How can deadlocks be prevented?,Deadlocks can be prevented using resource ordering timeout prevention algorithms or deadlock detection techniques.
+What is deadlock detection?,Deadlock detection identifies cycles in the wait-for graph and resolves them.
+What is deadlock recovery?,Deadlock recovery resolves deadlocks by rolling back one or more transactions.
+What is a wait-for graph?,A wait-for graph represents waiting relationships between transactions to detect deadlocks.
+What is database recovery?,Database recovery restores the database to a consistent state after a failure.
+What is a checkpoint?,A checkpoint saves the current database state to simplify recovery after failures.
+What is a log file in DBMS?,A log file records all transaction operations for recovery purposes.
+What is backup?,Backup is the process of creating copies of database data for restoration after failures.
+What are the types of backups?,The common backup types are Full Incremental Differential and Transaction Log backups.
+What is crash recovery?,Crash recovery restores the database after unexpected system failures.
+What is shadow paging?,Shadow paging is a recovery technique that maintains old and new page versions without using logs.
+What is NoSQL?,NoSQL is a non-relational database system designed for scalable and flexible data storage.
+What are the types of NoSQL databases?,The main types are Key-Value Document Column-Family and Graph databases.
+What is data warehousing?,A data warehouse is a centralized repository used for reporting analysis and decision making.
+What is OLTP?,OLTP Online Transaction Processing manages day-to-day transactional operations efficiently.
+What is OLAP?,OLAP Online Analytical Processing supports complex queries analysis and business intelligence on large datasets.

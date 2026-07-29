@@ -1,0 +1,96 @@
+Question,Option A,Option B,Option C,Option D,Correct Answer,Explanation
+What is the brain of a computer?,CPU,Monitor,Keyboard,Printer,CPU,CPU processes instructions and controls all operations of a computer.
+CPU stands for?,Central Processing Unit,Computer Processing Unit,Central Program Unit,Control Processing Unit,Central Processing Unit,CPU is the main processing unit of a computer.
+Which component stores data permanently?,RAM,ROM,Cache,Hard Disk,Hard Disk,Hard disk provides permanent storage for files and programs.
+RAM stands for?,Random Access Memory,Read Access Memory,Run Access Memory,Random Allocation Memory,Random Access Memory,RAM is temporary memory used while programs are running.
+ROM stands for?,Read Only Memory,Random Only Memory,Run Only Memory,Read Open Memory,Read Only Memory,ROM stores permanent instructions.
+Which memory is volatile?,RAM,ROM,Hard Disk,CD,RAM,RAM loses data when power is turned off.
+Which is non-volatile memory?,RAM,Cache,ROM,Register,ROM,ROM retains data even without power.
+The full form of USB is?,Universal Serial Bus,United System Bus,Universal System Board,Unique Serial Bus,Universal Serial Bus,USB is used to connect external devices.
+Which device is used to enter data?,Keyboard,Monitor,Printer,Speaker,Keyboard,Keyboard is an input device used for typing.
+Which is an output device?,Monitor,Keyboard,Mouse,Scanner,Monitor,Monitor displays processed information.
+Which device converts hard copy into digital form?,Scanner,Printer,Speaker,Plotter,Scanner,Scanner converts documents into digital images.
+Which device produces hard copies?,Printer,Monitor,Keyboard,Mouse,Printer,Printer prints digital documents on paper.
+Which is an example of an operating system?,Windows,MS Word,Chrome,Excel,Windows,Windows manages computer hardware and software.
+Linux is a?,Operating System,Programming Language,Database,Browser,Operating System,Linux is an open-source operating system.
+Android is based on?,Linux,Windows,DOS,Unix only,Linux,Android uses the Linux kernel.
+The full form of OS is?,Operating System,Open Software,Operating Source,Online System,Operating System,OS manages computer resources.
+Which company developed Windows?,Microsoft,Apple,Google,IBM,Microsoft,Microsoft created the Windows operating system.
+macOS is developed by?,Apple,Microsoft,Google,Intel,Apple,Apple develops macOS for Mac computers.
+The full form of GUI is?,Graphical User Interface,General User Internet,Graphical Utility Input,Global User Interface,Graphical User Interface,GUI allows users to interact using icons and graphics.
+Which is a web browser?,Chrome,Windows,Linux,Oracle,Chrome,Chrome is used to access websites.
+Google Chrome was developed by?,Google,Microsoft,Apple,IBM,Google,Google developed Chrome browser.
+Firefox is developed by?,Mozilla,Google,Apple,Microsoft,Mozilla,Mozilla develops Firefox browser.
+The internet is a?,Network of networks,Single computer,Software,Database,Network of networks,Internet connects multiple networks worldwide.
+WWW stands for?,World Wide Web,World Web Window,Wide World Web,Web World Wide,World Wide Web,WWW provides access to web pages.
+Who invented the World Wide Web?,Tim Berners-Lee,Bill Gates,Steve Jobs,Charles Babbage,Tim Berners-Lee,Tim Berners-Lee created WWW.
+An IP address identifies?,Device on network,Keyboard,Printer paper,Software,Device on network,IP address uniquely identifies devices connected to a network.
+LAN stands for?,Local Area Network,Large Area Network,Long Area Node,Local Access Network,Local Area Network,LAN connects computers in a small area.
+WAN stands for?,Wide Area Network,Web Area Network,Wireless Access Network,World Area Network,Wide Area Network,WAN covers large geographical areas.
+MAN stands for?,Metropolitan Area Network,Main Area Network,Mobile Area Network,Medium Access Network,Metropolitan Area Network,MAN covers a city or metropolitan area.
+A router is used for?,Network connection,Printing,Scanning,Storage,Network connection,Router forwards data between networks.
+A modem is used for?,Internet connection,Typing,Printing,Scanning,Internet connection,Modem converts digital and analog signals.
+Bluetooth is used for?,Short-range wireless communication,Printing only,Internet only,Storage,Short-range wireless communication,Bluetooth connects devices wirelessly over short distances.
+Wi-Fi is used for?,Wireless networking,Typing,Programming,Scanning,Wireless networking,Wi-Fi provides wireless internet access.
+The full form of HTML is?,HyperText Markup Language,HighText Machine Language,Hyper Transfer Markup Language,Hyperlink Text Language,HyperText Markup Language,HTML is used to create web pages.
+CSS is used for?,Web page styling,Database management,Operating system,Hardware control,Web page styling,CSS controls the appearance of web pages.
+JavaScript is mainly used for?,Web interactivity,Operating system,Database storage,Hardware repair,Web interactivity,JavaScript adds dynamic features to websites.
+SQL is used for?,Database management,Image editing,Operating systems,Networking,Database management,SQL manages and retrieves database data.
+DBMS stands for?,Database Management System,Digital Base Management System,Data Backup Management System,Database Memory System,Database Management System,DBMS stores and manages data.
+MySQL is a?,Database system,Operating system,Browser,Programming language,Database system,MySQL is a relational database management system.
+Cloud computing provides?,Online storage and services,Only hardware,Only software,Keyboard access,Online storage and services,Cloud computing delivers computing resources through the internet.
+Artificial Intelligence enables machines to?,Think and learn,Only store files,Print documents,Create cables,Think and learn,AI allows machines to perform intelligent tasks.
+Machine Learning is a part of?,Artificial Intelligence,Networking,Hardware,Database,Artificial Intelligence,Machine learning enables systems to learn from data.
+Cybersecurity protects?,Computer systems and data,Only hardware,Only printers,Only software,Computer systems and data,Cybersecurity prevents unauthorized access.
+A computer virus is?,Malicious software,Hardware device,Input device,Operating system,Malicious software,Virus can damage or disrupt computer operations.
+Antivirus software protects against?,Malware,Virus only files,Hardware failure,Power loss,Malware,Antivirus detects and removes harmful programs.
+Question,Option A,Option B,Option C,Option D,Correct Answer,Explanation
+The full form of CPU is?,Central Processing Unit,Central Program Unit,Computer Processing Unit,Control Processing Unit,Central Processing Unit,CPU is the main processing component of a computer.
+The ALU is a part of?,CPU,RAM,Hard Disk,Monitor,CPU,ALU performs arithmetic and logical operations.
+ALU stands for?,Arithmetic Logic Unit,Automatic Logic Unit,Advanced Link Unit,Arithmetic Load Unit,Arithmetic Logic Unit,ALU handles calculations and logical decisions.
+The Control Unit is responsible for?,Controlling operations,Storing files,Printing,Internet access,Controlling operations,Control Unit manages and coordinates computer activities.
+Cache memory is?,High-speed memory,External storage,Input device,Software,High-speed memory,Cache improves processing speed by storing frequently used data.
+The smallest unit of data in a computer is?,Bit,Byte,KB,MB,Bit,Bit represents the smallest binary value.
+A group of 8 bits is called?,Byte,Word,Block,Record,Byte,8 bits make one byte.
+1024 bytes equal?,1 KB,1 MB,1 GB,1 TB,1 KB,KB is a unit of digital storage.
+1024 KB equals?,1 MB,1 GB,1 TB,1 Byte,1 MB,MB is larger than KB and equals 1024 KB.
+1024 MB equals?,1 GB,1 TB,1 KB,1 Byte,1 GB,GB is a storage unit equal to 1024 MB.
+1024 GB equals?,1 TB,1 MB,1 KB,1 Byte,1 TB,TB is a large storage measurement.
+Which is an input device?,Mouse,Monitor,Speaker,Printer,Mouse,Mouse is used to provide commands to a computer.
+Which is a pointing device?,Mouse,Keyboard,Printer,Scanner,Mouse,Mouse controls the pointer on screen.
+A keyboard key used to delete characters is?,Backspace,Shift,Ctrl,Alt,Backspace,Backspace removes characters before the cursor.
+Shortcut key for copy is?,Ctrl+C,Ctrl+V,Ctrl+X,Ctrl+P,Ctrl+C,Ctrl+C copies selected data.
+Shortcut key for paste is?,Ctrl+V,Ctrl+C,Ctrl+S,Ctrl+Z,Ctrl+V,Ctrl+V pastes copied data.
+Shortcut key for cut is?,Ctrl+X,Ctrl+C,Ctrl+A,Ctrl+F,Ctrl+X,Ctrl+X removes selected data for moving.
+Shortcut key for save is?,Ctrl+S,Ctrl+P,Ctrl+N,Ctrl+O,Ctrl+S,Ctrl+S saves a document.
+Shortcut key for undo is?,Ctrl+Z,Ctrl+Y,Ctrl+U,Ctrl+R,Ctrl+Z,Ctrl+Z reverses the previous action.
+Shortcut key for select all is?,Ctrl+A,Ctrl+S,Ctrl+X,Ctrl+D,Ctrl+A,Ctrl+A selects all content.
+MS Word is used for?,Document creation,Calculations,Presentations,Browsing,Document creation,MS Word is a word processing application.
+MS Excel is used for?,Spreadsheets,Image editing,Video editing,Operating system,Spreadsheets,Excel manages data using rows and columns.
+MS PowerPoint is used for?,Presentations,Database,Programming,Scanning,Presentations,PowerPoint creates slide presentations.
+MS Office is developed by?,Microsoft,Google,Apple,IBM,Microsoft,Microsoft developed the Office suite.
+The default extension of Word file is?,.docx,.xlsx,.pptx,.txt,.docx,.docx is the modern Word document format.
+The default extension of Excel file is?,.xlsx,.docx,.pptx,.jpg,.xlsx,.xlsx is used for Excel spreadsheets.
+The default extension of PowerPoint file is?,.pptx,.docx,.xlsx,.pdf,.pptx,.pptx is used for presentations.
+PDF stands for?,Portable Document Format,Personal Data File,Public Document Form,Print Data Format,Portable Document Format,PDF preserves document formatting.
+A firewall is used for?,Network security,Printing,Storage,Programming,Network security,Firewall controls network traffic for protection.
+Phishing is related to?,Online fraud,Hardware repair,Data backup,Programming,Online fraud,Phishing attempts to steal sensitive information.
+OTP stands for?,One Time Password,Online Transfer Password,Only Text Password,Open Time Password,One Time Password,OTP provides temporary authentication.
+Two-factor authentication improves?,Security,Storage,Speed,Printing,Security,It adds an extra verification step.
+Encryption converts data into?,Secret code,Image,Audio,Video,Secret code,Encryption protects information from unauthorized access.
+Decryption means?,Converting coded data back,Deleting data,Copying data,Compressing data,Converting coded data back,Decryption restores original information.
+A database is a collection of?,Organized data,Hardware,Programs only,Cables,Organized data,A database stores structured information.
+A primary key is used to?,Uniquely identify records,Delete tables,Create viruses,Format disks,Uniquely identify records,Primary key values are unique in a table.
+A table in DBMS contains?,Rows and columns,Only images,Only text,Only numbers,Rows and columns,Tables organize data in databases.
+A compiler converts?,High-level language to machine code,Images to text,Hardware to software,Data to files,High-level language to machine code,Compiler translates programs into machine language.
+Python is a?,Programming language,Operating system,Browser,Database,Programming language,Python is used for software development and data science.
+Java is a?,Programming language,Hardware device,Network cable,Database,Programming language,Java is an object-oriented programming language.
+C language was developed by?,Dennis Ritchie,Bill Gates,James Gosling,Guido van Rossum,Dennis Ritchie,Dennis Ritchie created C programming language.
+Python was created by?,Guido van Rossum,James Gosling,Dennis Ritchie,Mark Zuckerberg,Guido van Rossum,Guido van Rossum developed Python.
+Java was developed by?,James Gosling,Guido van Rossum,Dennis Ritchie,Tim Berners-Lee,James Gosling,James Gosling created Java.
+Git is used for?,Version control,Printing,Database storage,Networking,Version control,Git tracks changes in source code.
+GitHub is used for?,Code hosting,Video editing,Email,Operating system,Code hosting,GitHub stores and manages software projects.
+Artificial Intelligence is abbreviated as?,AI,AR,IT,ML,AI,AI stands for Artificial Intelligence.
+IoT stands for?,Internet of Things,Input of Technology,Internet of Tools,Integrated Online Technology,Internet of Things,IoT connects physical devices through the internet.
+Big Data refers to?,Large volume of data,Small files,Hardware,Software only,Large volume of data,Big Data handles huge and complex datasets.
+Blockchain is a?,Distributed digital ledger,Operating system,Browser,Programming language,Distributed digital ledger,Blockchain stores records securely across networks.

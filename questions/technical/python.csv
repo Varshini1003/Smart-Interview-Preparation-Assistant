@@ -1,0 +1,104 @@
+Question,Answer
+What is Python?,Python is a high-level interpreted programming language known for its simplicity and readability.
+Who developed Python?,Python was developed by Guido van Rossum.
+When was Python first released?,Python was first released in 1991.
+What are the features of Python?,Python is interpreted object-oriented high-level portable open-source and dynamically typed.
+What is the latest major version of Python?,Python 3 is the current major version.
+What is an interpreter?,An interpreter executes Python code line by line.
+What is the difference between compiled and interpreted languages?,Compiled languages convert code before execution while interpreted languages execute code line by line.
+What are Python keywords?,Keywords are reserved words with predefined meanings in Python.
+How do you print output in Python?,The print() function is used to display output.
+How do you take input in Python?,The input() function is used to take input from the user.
+What are variables in Python?,Variables are names used to store data values.
+What are identifiers?,Identifiers are names given to variables functions classes and objects.
+What are the rules for naming variables?,Variable names must start with a letter or underscore cannot start with a number and cannot use keywords.
+What are comments in Python?,Comments are notes ignored by the interpreter and begin with the # symbol.
+How do you write a multi-line comment?,Python uses triple quotes or multiple single-line comments for documentation.
+What are the basic data types in Python?,The basic data types are int float complex bool str list tuple set dictionary and NoneType.
+What is an integer?,An integer is a whole number without a decimal point.
+What is a float?,A float is a number with a decimal point.
+What is a string?,A string is a sequence of Unicode characters enclosed in quotes.
+What is a Boolean?,A Boolean data type represents either True or False.
+What is None in Python?,None represents the absence of a value or a null value.
+How do you check the data type of a variable?,The type() function is used to check the data type.
+What is dynamic typing?,Dynamic typing means variables do not require explicit type declarations.
+What is type casting?,Type casting is the process of converting one data type into another.
+What are the built-in type conversion functions?,Common type conversion functions include int() float() str() bool() list() tuple() set() and dict().
+Question,Answer
+What is a list in Python?,A list is an ordered mutable collection that can store multiple items.
+What is a tuple?,A tuple is an ordered immutable collection of items.
+What is a set?,A set is an unordered collection of unique elements.
+What is a dictionary?,A dictionary is a collection of key-value pairs.
+What is the difference between a list and a tuple?,Lists are mutable while tuples are immutable.
+What is the difference between a set and a list?,A set stores unique unordered elements while a list stores ordered elements and allows duplicates.
+How do you create an empty list?,Use square brackets [] or the list() constructor.
+How do you create an empty dictionary?,Use curly braces {} or the dict() constructor.
+How do you create an empty set?,Use the set() constructor because {} creates an empty dictionary.
+How do you add an element to a list?,Use the append() method.
+What is the append() method?,append() adds a single element to the end of a list.
+What is the extend() method?,extend() adds all elements of another iterable to a list.
+What is the insert() method?,insert() adds an element at a specified index.
+How do you remove an element from a list?,Use remove() pop() or del.
+What is the remove() method?,remove() deletes the first occurrence of a specified value.
+What is the pop() method?,pop() removes and returns the element at the specified index or the last element.
+What does the clear() method do?,clear() removes all elements from a list.
+How do you reverse a list?,Use the reverse() method or reversed() function.
+How do you sort a list?,Use the sort() method or the sorted() function.
+What is the difference between sort() and sorted()?,sort() modifies the original list while sorted() returns a new sorted list.
+How do you access dictionary values?,Use the key inside square brackets or the get() method.
+What is the get() method in dictionaries?,get() returns the value for a key without raising an error if the key is missing.
+How do you iterate through a dictionary?,Use a for loop with keys() values() or items().
+What is dictionary comprehension?,Dictionary comprehension creates dictionaries using a compact syntax similar to list comprehension.
+What is list comprehension?,List comprehension provides a concise way to create lists using a single expression.
+Question,Answer
+What is a function in Python?,A function is a reusable block of code that performs a specific task.
+How do you define a function?,A function is defined using the def keyword.
+How do you call a function?,Call a function by writing its name followed by parentheses.
+What is the purpose of the return statement?,The return statement sends a value back to the caller.
+What is the difference between return and print?,return sends a value back while print displays output on the screen.
+What are function parameters?,Parameters are variables defined in the function declaration to receive input values.
+What are function arguments?,Arguments are the actual values passed to a function during a call.
+What are default arguments?,Default arguments have predefined values that are used if no argument is provided.
+What are keyword arguments?,Keyword arguments are passed using parameter names making the call more readable.
+What are positional arguments?,Positional arguments are assigned based on their order in the function call.
+What is *args?,*args allows a function to accept any number of positional arguments.
+What is **kwargs?,**kwargs allows a function to accept any number of keyword arguments.
+What is recursion?,Recursion is a technique where a function calls itself.
+What is the base case in recursion?,The base case is the condition that stops recursive calls.
+What is an anonymous function?,An anonymous function is a function without a name created using lambda.
+What is a lambda function?,A lambda function is a small anonymous function defined with the lambda keyword.
+What is the syntax of a lambda function?,lambda arguments: expression.
+What are built-in functions?,Built-in functions are predefined functions provided by Python such as len() print() and range().
+What does len() do?,len() returns the number of items in an object.
+What does range() do?,range() generates a sequence of numbers.
+What does enumerate() do?,enumerate() returns both the index and value while iterating over a sequence.
+What does zip() do?,zip() combines multiple iterables into pairs or tuples.
+What is map()?,map() applies a function to every item in an iterable.
+What is filter()?,filter() returns elements that satisfy a specified condition.
+What is reduce()?,reduce() repeatedly applies a function to reduce an iterable to a single value.
+Question,Answer
+What is Object-Oriented Programming (OOP)?,Object-Oriented Programming is a programming paradigm based on objects and classes.
+What is a class in Python?,A class is a blueprint for creating objects.
+What is an object?,An object is an instance of a class.
+What is a constructor?,A constructor is a special method __init__() that initializes an object.
+What is self in Python?,self refers to the current instance of a class.
+What are the four pillars of OOP?,Encapsulation Inheritance Polymorphism and Abstraction.
+What is encapsulation?,Encapsulation binds data and methods together and restricts direct access to data.
+What is inheritance?,Inheritance allows a class to acquire properties and methods from another class.
+What is polymorphism?,Polymorphism allows the same method or operator to behave differently for different objects.
+What is abstraction?,Abstraction hides implementation details and shows only essential features.
+What is method overriding?,Method overriding allows a child class to provide its own implementation of a parent class method.
+What is method overloading?,Python does not support true method overloading but it can be achieved using default arguments or variable-length arguments.
+What is exception handling?,Exception handling is used to manage runtime errors using try and except blocks.
+What is the purpose of the try block?,The try block contains code that may raise an exception.
+What is the purpose of the except block?,The except block handles exceptions raised in the try block.
+What is the finally block?,The finally block always executes whether an exception occurs or not.
+What is the raise keyword?,The raise keyword is used to explicitly generate an exception.
+What is file handling in Python?,File handling allows reading writing and modifying files.
+How do you open a file in Python?,Use the open() function with the required file mode.
+What are the common file modes?,Common file modes are r w a x rb wb and ab.
+What is a module?,A module is a Python file containing reusable code.
+What is a package?,A package is a collection of related Python modules.
+What is pip?,pip is Python's package manager used to install and manage libraries.
+What is a virtual environment?,A virtual environment is an isolated Python environment for managing project dependencies.
+What is the difference between an iterator and a generator?,An iterator implements __iter__() and __next__() while a generator produces values lazily using the yield keyword.
